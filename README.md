@@ -111,8 +111,9 @@ edge cases.
 
 ### Submission instructions
 
-Clone this repository. Add your API code to the `src` directory and provide a brief `README.md` describing how to build and run your code. Once you are finished,
-share your repository with jasonf@advmicrogrid.com.
+Clone this repository. Add your API code to the `src` directory and provide a brief `README.md` describing how to build and run your code. 
+
+Once you are finished, bundle your repository into a file by calling `git bundle create repoarchive.bundle master` on the command line and send the outputted `repoarchive.bundle` to jasonf@advmicrogrid.com.
 
 
 ### Review
@@ -124,3 +125,5 @@ When reviewing your code, we will primarily be at the following (in no particula
 1. Test case accuracy
 
 Bonus points for error-handling.
+
+Good luck!
