@@ -83,21 +83,21 @@
 
 #### Request
 
-`http://localhost:8080/api/tou/changes?startTime=2017-04-01T00:00:00.000Z&endTime=2017-04-01T00:17:00.000Z`
+`http://localhost:8080/api/tou/changes?startTime=2017-04-03T00:00:00.000Z&endTime=2017-04-03T00:17:00.000Z`
 
 #### Response
 
 ```json
 [
   {
-    "startTime": "2017-04-01T00:00:00.000Z",
-    "endTime": "2017-04-01T09:00:00.000Z",
+    "startTime": "2017-04-03T00:00:00.000Z",
+    "endTime": "2017-04-03T09:00:00.000Z",
     "season": "Summer",
     "period": "Play"
   },
   {
-    "startTime": "2017-04-01T09:00:00.000Z",
-    "endTime": "2017-04-01T17:00:00.000Z",
+    "startTime": "2017-04-03T09:00:00.000Z",
+    "endTime": "2017-04-03T17:00:00.000Z",
     "season": "Summer",
     "period": "Work"
   }
