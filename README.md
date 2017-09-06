@@ -84,7 +84,7 @@ correspond to.
 
 Using the above example as the request body, the result from this request:
 
-> http://localhost:8080/api/seasons/?startTime=**2017-04-03T00:00:00.000Z**&endTime=**2017-04-03T00:17:00.000Z**
+> http://localhost:8080/api/seasons/?startTime=2017-04-03T00:00:00.000Z&endTime=2017-04-03T00:17:00.000Z
 
 should produce this response:
 
