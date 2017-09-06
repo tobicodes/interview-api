@@ -74,15 +74,16 @@ Some notes about seasons/periods:
 
 Your endpoint should look like this:
 
->POST http://localhost:8080/api/tou/changes?startTime={startTime}&endTime={endTime}
+>POST http://localhost:8080/api/tou/changes?startTime={start}&endTime={end}
 
-where {startTime} and {endTime} are iso-formatted strings (e.g. 2017-01-01T00:00:00.000Z). It should be a POST request
-whose body is a JSON list representing the seasons and TOU periods to be used.
+where `{start}` and `{end}` are iso-formatted strings (e.g. `2017-01-01T00:00:00.000Z`). 
 
-It should produce a list of JSON objects corresponding to time of use changes, each with a startTime and endTime, as well as the season and period they
+It should consume a POST request whose body is a JSON list representing the seasons and TOU periods to be used.
+
+It should produce a list of JSON objects corresponding to time of use changes, each with a `startTime` and `endTime`, as well as the season and period they
 correspond to. The list of objects should fully span the time interval from `startTime` to `endTime`.
 
-Using the above example as the request body, the result from this request:
+Using the above season as the request body, the result from this request:
 
 > http://localhost:8080/api/tou/changes?startTime=2017-04-03T00:00:00.000Z&endTime=2017-04-03T00:17:00.000Z
 
