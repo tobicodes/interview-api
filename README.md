@@ -119,7 +119,7 @@ Once you are finished, bundle your repository into a file by calling `git bundle
 
 ### Review
 
-When reviewing your code, we will primarily be at the following (in no particular order):
+When reviewing your code, we will primarily interested in the following (in no particular order):
 
 1. Readable, maintainable code structure
 1. Algorithmic performance
