@@ -22,8 +22,8 @@
       },
       {
         "periodName": "Play",
-        "fromDayOfWeek": 4,
-        "toDayOfWeek": 0,
+        "fromDayOfWeek": 5,
+        "toDayOfWeek": 6,
         "fromHour": 0,
         "toHour": 0,
         "fromMinute": 0,
@@ -83,7 +83,7 @@
 
 #### Request
 
-`http://localhost:8080/api/tou/changes?startTime=2017-04-03T00:00:00.000Z&endTime=2017-04-03T00:17:00.000Z`
+`http://localhost:8080/api/tou/changes?startTime=2017-04-03T00:00:00.000Z&endTime=2017-04-03T17:00:00.000Z`
 
 #### Response
 
@@ -139,7 +139,7 @@
 
 #### Request
 
-`http://localhost:8080/api/tou/changes?startTime=2017-08-31T12:00:00.000Z&endTime=2017-09-01T00:12:00.000Z`
+`http://localhost:8080/api/tou/changes?startTime=2017-08-31T12:00:00.000Z&endTime=2017-09-01T12:00:00.000Z`
 
 #### Response
 
