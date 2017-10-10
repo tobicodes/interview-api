@@ -1,0 +1,29 @@
+{
+  "name": "interview-api",
+  "version": "1.0.0",
+  "description": "### Context",
+  "main": "app.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobicodes/interview-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tobicodes/interview-api/issues"
+  },
+  "homepage": "https://github.com/tobicodes/interview-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.1",
+    "nodemon": "^1.12.1"
+  }
+}
